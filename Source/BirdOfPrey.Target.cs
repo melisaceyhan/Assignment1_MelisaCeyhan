@@ -9,7 +9,7 @@ public class BirdOfPreyTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V3;
-        IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_2;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
 
         ExtraModuleNames.AddRange( new string[] { "BirdOfPrey" } );
 	}

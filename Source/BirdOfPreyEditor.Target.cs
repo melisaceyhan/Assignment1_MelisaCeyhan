@@ -9,8 +9,10 @@ public class BirdOfPreyEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V3;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_2;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
 
-		ExtraModuleNames.AddRange( new string[] { "BirdOfPrey" } );
+        BuildEnvironment = TargetBuildEnvironment.Unique;
+
+        ExtraModuleNames.AddRange( new string[] { "BirdOfPrey" } );
 	}
 }
